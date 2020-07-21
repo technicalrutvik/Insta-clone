@@ -1,0 +1,62 @@
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');*/
+@font-face{
+	font-family: yes;
+	src:url('./Grand_Hotel/GrandHotel-Regular.ttf');
+}
+a{
+  color:black !important;
+}
+.brand-logo{
+  font-family: 'yes',cursive;
+}
+.card.auth-card {
+	    position: relative;
+    /*margin: .5rem 0 1rem 0;*/
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+  text-align: center;
+  padding: 20px;
+  /*left: 159px;*/
+  max-width: 400px;
+  margin: 10px auto;	
+}
+.mycard{
+	margin-top: 30px;
+}
+.insta{
+	font-family: 'yes',cursive;
+}
+.input-field input[type=text]:focus{
+	border-bottom: 1px solid rgb(8,93,252) !important;
+	box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+}
+.input-field input[type=password]:focus{
+	border-bottom: 1px solid rgb(8,93,252) !important;
+	box-shadow: 0 1px 0 0 rgb(8,93,252) !important;
+}
+.gallary{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item{
+	width: 23%;
+}
+/*.card.home-card{
+	width: 53%;
+	margin-left: 199px;
+}*/
+.card.home-card{
+	max-width: 600px;
+	height: max-content;
+	margin:26px auto;
+}
+.material-icons:hover{
+	cursor: pointer;
+}
+.collection-item{
+	width: 100%;
+}
